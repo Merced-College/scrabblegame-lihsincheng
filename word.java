@@ -8,7 +8,7 @@ public class Word{
     private String wordText;
 
     // Contructor - create a new Word object
-    private Word(String text){
+    public Word(String text){
         this.wordText = text.toLowerCase();
 
     }
